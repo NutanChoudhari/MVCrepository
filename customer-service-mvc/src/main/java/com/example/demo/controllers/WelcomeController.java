@@ -15,12 +15,4 @@ public class WelcomeController {
 	   
 		return "index";
 	}
-   
-   @RequestMapping(value = "/greet")
-	public String gret(Model model) {
-		
-	   model.addAttribute("heading","Customer Resource Management" );
-	   
-		return "index";
-	}
 }
